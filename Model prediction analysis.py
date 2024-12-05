@@ -321,7 +321,7 @@ def Unet_predict_metric(selected_img, selected_mask) :
 
     model = Unet(num_classes)
 
-    model.load_state_dict(torch.load('./model/torchUnet0.0001.pth',map_location=torch.device('cpu')))  # Load the saved parameters
+    model.load_state_dict(torch.load('./model/torchUnet1e-04.pth',map_location=torch.device('cpu')))  # Load the saved parameters
 
     model = model.to(torch.device('cpu'))
 
