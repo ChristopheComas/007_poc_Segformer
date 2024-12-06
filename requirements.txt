@@ -7,3 +7,6 @@ pandas
 pillow
 datasets
 transformers
+torch
+torchvision
+torchaudio
