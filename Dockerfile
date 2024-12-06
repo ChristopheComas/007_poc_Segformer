@@ -22,4 +22,4 @@ COPY . .
 EXPOSE 8501
 
 # Command to run the FastAPI application using uvicorn
-CMD ["streamlit", "run", "Model prediction analysis.py", "--server.port=8501"]
+CMD ["streamlit", "run", "Model_prediction_analysis.py", "--server.port=8501"]
